@@ -8,27 +8,69 @@ body {
   font-family:times;
   background-color: #F2F1E8;
 }
-
+.navigation>a{
+  align-items: stretch;
+} /* Confused about this */
+.top{
+  width: 70%;
+  padding-left: 4em 4em 4em 4em;
+  margin: auto;
+  margin: auto;
+}
+.birdHouse {
+  display: flex;
+  justify-content: space-around;
+}
+.quote1 {
+  border-left: 2px solid brown;
+}
+.room {
+background-image: url("/Users/yanawilkins/Documents/week-one-project/images/background-3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.textroom{
+  text-align: center;
+  padding: 2em 3em 3em 3em;
+  border-radius: 2em 3em 3em 3em;
+  color: white
+}
 header{
   background-color: black
   padding: 2em 3em 3em 3em;
 }
 
+table {border: 1px solid brown;
+border-collapse: collapse;
+}
+td {border: 1px solid brown;}
+
+
+
 .artist {
   font-size: 2em;
   color: black;
 }
-.first_part
-{
 
-}
 nav {
   background-color: white;
   font-size: 1em;
   color: black;
 }
 
-.copyRight{
+.bottom{
+  width: 70%;
+  padding-left: 4em 4em 4em 4em;
+  margin: auto;
+  margin: auto;
+}
+.side-pic{
+  width:20%;
+  float: right;
+}
+/*not sure about this. It's not moving!!!*/
+
+footer{
   background-color: black;
   font-size: 2em;
   color: white;
