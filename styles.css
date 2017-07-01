@@ -70,6 +70,14 @@ nav {
 }
 /*not sure about this. It's not moving!!!*/
 
+/*Newsletter page starts here*/
+
+.all{
+  background-image: url("/Users/yanawilkins/Documents/week-one-project/images/background-2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 footer{
   background-color: black;
   font-size: 2em;
