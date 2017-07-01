@@ -1,0 +1,35 @@
+html {
+  font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Fira Sans', sans-serif;
+
+}
+body {
+  font-family:times;
+  background-color: #F2F1E8;
+}
+
+header{
+  background-color: black
+  padding: 2em 3em 3em 3em;
+}
+
+.artist {
+  font-size: 2em;
+  color: black;
+}
+.first_part
+{
+
+}
+nav {
+  background-color: white;
+  font-size: 1em;
+  color: black;
+}
+
+.copyRight{
+  background-color: black;
+  font-size: 2em;
+  color: white;
+}
