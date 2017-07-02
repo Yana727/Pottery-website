@@ -26,8 +26,13 @@ body {
    font-size: 2em;
    font-family: monospace;
 }
+.topRow {
 
-/*About pagestarts here*/
+}
+
+
+
+/*"About" pagestarts here*/
 .top{
   width: 70%;
   padding-left: 4em 4em 4em 4em;
@@ -97,9 +102,21 @@ nav {
   background-size: cover;
   background-position: center;
 }
-
+/*don't see the background for some reason*/
+.bigBox{
+  text-align: center;
+}
+form{
+  background-color: white;
+  padding: 5em 5em 5em 5em;
+  border-radius: 5px;
+  width: 10em;
+  margin: auto;
+  /*not working...*/
+}
 footer{
   background-color: black;
   font-size: 2em;
   color: white;
 }
+/*could see this working earlier, but then it stopped working*/
