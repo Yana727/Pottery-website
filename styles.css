@@ -8,9 +8,26 @@ body {
   font-family:times;
   background-color: #F2F1E8;
 }
+
 .navigation>a{
-  align-items: stretch;
+  display: flex;
 } /* Confused about this */
+
+/*Index starts here*/
+
+/*why doesn't "topIndex" change anything?*/
+.Title{
+ text-align: center;
+ font-size: 2em;
+ font-family: monospace;
+
+ .where{ /*why doesn't it see the class??*/
+   text-align: center;
+   font-size: 2em;
+   font-family: monospace;
+}
+
+/*About pagestarts here*/
 .top{
   width: 70%;
   padding-left: 4em 4em 4em 4em;
@@ -59,16 +76,19 @@ nav {
 }
 
 .bottom{
-  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  width: 70%
   padding-left: 4em 4em 4em 4em;
-  margin: auto;
-  margin: auto;
+ /*why did my width go screwed up? It used to look fine. I did it the same way as the "top", but after adding flex it got messes up...*/
+
 }
 .side-pic{
-  width:20%;
-  float: right;
+  flex-basis: 220px;
+  }
+.paragraph {
+  flex-basis: 640;
 }
-/*not sure about this. It's not moving!!!*/
 
 /*Newsletter page starts here*/
 
