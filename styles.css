@@ -9,8 +9,6 @@ body {
   background-color: #F2F1E8;
 }
 
-
-
 nav {
   display: flex;
   justify-content: center;
@@ -18,6 +16,7 @@ nav {
   height: 80px;
   align-items: center;
 } /* Confused about this */
+
 
 nav a{
   padding: 0 4em;
@@ -29,6 +28,30 @@ nav a{
  }
 /*Index starts here*/
 
+.topRow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: absolute;
+}
+
+.endless img {
+    height:400px;
+}
+.endless span{
+  position: relative;
+  left: -10em;
+  background-color: black;
+  color: white;
+}
+.sets img {
+    height:400px;
+    position: relative;
+}
+.texture img {
+    height:400px;
+    position: relative;
+}
 /*why doesn't "topIndex" change anything?*/
 .Title{
  text-align: center;
@@ -41,6 +64,7 @@ nav a{
    font-family: monospace;
 }
 .topRow {
+  flex-grow:
 
 }
 
@@ -97,8 +121,8 @@ nav {
 .bottom{
   display: flex;
   justify-content: space-between;
-  width: 70%
-  padding-left: 4em 4em 4em 4em;
+  width: 70%;
+  padding: 4em 4em 4em 4em;
  /*why did my width go screwed up? It used to look fine. I did it the same way as the "top", but after adding flex it got messes up...*/
 
 }
@@ -112,7 +136,7 @@ nav {
 /*Newsletter page starts here*/
 
 .all{
-  background-image: url("/Users/yanawilkins/Documents/week-one-project/images/background-2.jpg");
+  background-image: url("images/background-2.jpg");
   background-size: cover;
   background-position: center;
 }
