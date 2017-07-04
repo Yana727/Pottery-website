@@ -38,56 +38,96 @@ nav a{
  font-size: 2em;
  font-family: monospace;
 }
-
-.topRow {
+#all_pics{
   display: flex;
   flex-direction: row;
-  width: 100%;
+  flex-wrap: wrap;
+  margin: 0;
+  margin: 0;
+}
+
+.topRow{
+  display: flex;
+  justify-content: space-between;
+  height: 30em;
+}
+
+.pic1{
+  background-image: url("images/product-1.jpg");
+  background-size: cover;
+  position: relative;
+  width: 60%;
+
+}
+
+.pic1 p {
+  color: white;
+  z-index: 1;
   position: absolute;
+  bottom: 0;
+  left: 5;
+  padding: 1em;
+  background-color: black;
+  font-size: 2em;
+
 }
 
-.endless img {
-    height:400px;
-}
-.endless span{
-  position: relative;
-  background-color: black;
-  color: white;
-  height: 2em;
-}
-.sets img {
-    height:400px;
-    position: relative;
-}
-.sets span{
-  position:relative;
-  background-color: black;
-  color: white;
-  height: 2em;
-}
-.texture img {
-    height:400px;
-    position: relative;
+.sets{
+  background-image: url("images/product-2.jpg");
+  background-size: cover;
+  width: 18%;
 }
 
-.texture span {
-  position: relative;
-  background-color: black;
+.sets p {
   color: white;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 5;
+  padding: 1em;
+  background-color: black;
+  font-size: 2em;
+  display: flex;
+  align-content: baseline;
+}
+
+.textures{
+  background-image: url("images/product-3.jpg");
+  background-size: cover;
+  width: 18%;
 }
 
 .bottomRow{
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  height: 30em;
+  margin-top: 1em;
 }
 
-.tea img{
-  height: 400px;
-  position: relative;
-  background-color: black;
-  color: white;
-  size: 40%;
+.tea{
+  background-image: url("images/product-4.jpg");
+  background-size: cover;
+  width: 12%;
 }
+
+.containers{
+  background-image: url("images/product-5.jpg");
+  background-size: cover;
+  width: 12%;
+}
+
+.Wasabi{
+  background-image: url("images/product-6.jpg");
+  background-size: cover;
+  width: 60%;
+}
+
+.sip{
+  background-image: url("images/product-7.jpg");
+  background-size: cover;
+  width: 12%;
+}
+
 
 
 
@@ -106,7 +146,7 @@ nav a{
   border-left: 2px solid brown;
 }
 .room {
-background-image: url("/Users/yanawilkins/Documents/week-one-project/images/background-3.jpg");
+background-image: url("images/background-3.jpg");
   background-size: cover;
   background-position: center;
 }
