@@ -7,6 +7,7 @@ font-family: 'Fira Sans', sans-serif;
 body {
   font-family:times;
   background-color: #F2F1E8;
+  width:100%;
 }
 
 nav {
@@ -15,8 +16,7 @@ nav {
   position: relative;
   height: 80px;
   align-items: center;
-} /* Confused about this */
-
+}
 
 nav a{
   padding: 0 4em;
@@ -27,6 +27,17 @@ nav a{
    top: 10px;
  }
 /*Index starts here*/
+.where{ /*why doesn't it see the class??*/
+  text-align: center;
+  font-size: 2em;
+  font-family: monospace;
+}
+
+.Title{
+ text-align: center;
+ font-size: 2em;
+ font-family: monospace;
+}
 
 .topRow {
   display: flex;
@@ -40,37 +51,47 @@ nav a{
 }
 .endless span{
   position: relative;
-  left: -10em;
   background-color: black;
   color: white;
+  height: 2em;
 }
 .sets img {
     height:400px;
     position: relative;
 }
+.sets span{
+  position:relative;
+  background-color: black;
+  color: white;
+  height: 2em;
+}
 .texture img {
     height:400px;
     position: relative;
 }
-/*why doesn't "topIndex" change anything?*/
-.Title{
- text-align: center;
- font-size: 2em;
- font-family: monospace;
-}
- .where{ /*why doesn't it see the class??*/
-   text-align: center;
-   font-size: 2em;
-   font-family: monospace;
-}
-.topRow {
-  flex-grow:
 
+.texture span {
+  position: relative;
+  background-color: black;
+  color: white;
 }
 
+.bottomRow{
+  display: flex;
+  flex-direction: row;
+}
+
+.tea img{
+  height: 400px;
+  position: relative;
+  background-color: black;
+  color: white;
+  size: 40%;
+}
 
 
-/*"About" pagestarts here*/
+
+/*"About" page starts here*/
 .top{
   width: 70%;
   padding-left: 4em 4em 4em 4em;
@@ -126,11 +147,9 @@ nav {
  /*why did my width go screwed up? It used to look fine. I did it the same way as the "top", but after adding flex it got messes up...*/
 
 }
-.side-pic{
-  flex-basis: 220px;
-  }
-.paragraph {
-  flex-basis: 640;
+.side_pic{
+  display: block;
+  justify-content: flex-end;
 }
 
 /*Newsletter page starts here*/
@@ -139,8 +158,9 @@ nav {
   background-image: url("images/background-2.jpg");
   background-size: cover;
   background-position: center;
+  height: 100%;
 }
-/*don't see the background for some reason*/
+
 .bigBox{
   text-align: center;
 }
@@ -152,12 +172,22 @@ form{
   margin: 10em;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  /*not working...*/
+  text-align: center;
 }
-footer{
+
+#Name, #email{
+  width: 100%;
+  height: 10%;
+  font-size: 1em;
+  margin-bottom: 1em;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+}
+footer #copy{
   background-color: black;
   font-size: 2em;
   color: white;
 }
-/*could see this working earlier, but then it stopped working*/
