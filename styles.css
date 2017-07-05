@@ -74,6 +74,7 @@ nav a{
 .sets{
   background-image: url("images/product-2.jpg");
   background-size: cover;
+  position: relative;
   width: 18%;
 }
 
@@ -93,6 +94,7 @@ nav a{
 .textures{
   background-image: url("images/product-3.jpg");
   background-size: cover;
+  position: relative;
   width: 18%;
 }
 
@@ -109,6 +111,8 @@ nav a{
 .tea{
   background-image: url("images/product-4.jpg");
   background-size: cover;
+  position: relative;
+  background-position: center;
   width: 12%;
 }
 
@@ -117,11 +121,15 @@ nav a{
   padding: 1em;
   background-color: black;
   font-size: 2em;
+  position: absolute;
+  bottom: 0;
 }
 
 .containers{
   background-image: url("images/product-5.jpg");
   background-size: cover;
+  position: relative;
+  background-position: left;
   width: 12%;
 }
 
@@ -130,29 +138,45 @@ nav a{
   padding: 1em;
   background-color: black;
   font-size: 2em;
+  position: absolute;
+  bottom: 0;
 
 }
 
 .Wasabi{
   background-image: url("images/product-6.jpg");
   background-size: cover;
+  position: relative;
+  background-position: center;
   width: 60%;
 }
 
-.Wasabi h3 {
+.Wasabi p {
   background-color: black;
   color: white;
   padding: 1em;
-  width: inherit;
+  font-size: 2em;
+  position: absolute;
+  bottom: 0;
 
 }
 
 .sip{
   background-image: url("images/product-7.jpg");
   background-size: cover;
+  position: relative;
+  background-position: center;
   width: 12%;
 }
+.sip p{
+  background-color: black;
+  color: white;
+  padding: 1em;
+  font-size: 2em;
+  position: absolute;
+  bottom: 0;
 
+}
 
 
 
