@@ -38,13 +38,8 @@ nav a{
  font-size: 2em;
  font-family: monospace;
 }
-#all_pics{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 0;
-  margin: 0;
-}
+
+/*Tried to do this after I did the top and bottom rows, but it didn't help. Wonder why id didn't overwrite my other divs*/
 
 .topRow{
   display: flex;
@@ -97,6 +92,15 @@ nav a{
   width: 18%;
 }
 
+.textures p {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  padding: 1em;
+  background-color: black;
+  font-size: 2em;
+}
+
 .bottomRow{
   display: flex;
   justify-content: space-between;
@@ -110,10 +114,25 @@ nav a{
   width: 12%;
 }
 
+.tea p {
+  color:white;
+  padding: 1em;
+  background-color: black;
+  font-size: 2em;
+}
+
 .containers{
   background-image: url("images/product-5.jpg");
   background-size: cover;
   width: 12%;
+}
+
+.containers p {
+  color: white;
+  padding: 1em;
+  background-color: black;
+  font-size: 2em;
+
 }
 
 .Wasabi{
