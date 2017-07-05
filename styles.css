@@ -41,10 +41,14 @@ nav a{
 
 /*Tried to do this after I did the top and bottom rows, but it didn't help. Wonder why id didn't overwrite my other divs*/
 
-.topRow{
+.topRow, .bottomRow{
   display: flex;
   justify-content: space-between;
   height: 30em;
+}
+
+.topRow{
+  margin-bottom: 0.5em;
 }
 
 .pic1{
@@ -101,12 +105,6 @@ nav a{
   font-size: 2em;
 }
 
-.bottomRow{
-  display: flex;
-  justify-content: space-between;
-  height: 30em;
-  margin-top: 1em;
-}
 
 .tea{
   background-image: url("images/product-4.jpg");
@@ -139,6 +137,14 @@ nav a{
   background-image: url("images/product-6.jpg");
   background-size: cover;
   width: 60%;
+}
+
+.Wasabi h3 {
+  background-color: black;
+  color: white;
+  padding: 1em;
+  width: inherit;
+
 }
 
 .sip{
@@ -180,10 +186,14 @@ header{
   padding: 2em 3em 3em 3em;
 }
 
+
 table {border: 1px solid brown;
 border-collapse: collapse;
 }
-td {border: 1px solid brown;}
+
+td {
+  border: 1px solid brown;
+  padding:0.5em;}
 
 
 
@@ -200,15 +210,25 @@ nav {
 
 .bottom{
   display: flex;
-  justify-content: space-between;
-  width: 70%;
+  flex-direction: column;
+  width: 100%;
   padding: 4em 4em 4em 4em;
  /*why did my width go screwed up? It used to look fine. I did it the same way as the "top", but after adding flex it got messes up...*/
 
 }
+.paragraph{
+  width: 60%;
+}
 .side_pic{
-  display: block;
-  justify-content: flex-end;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+
 }
 
 /*Newsletter page starts here*/
