@@ -288,9 +288,10 @@ form{
   border-right: 0;
 }
 
-}
-footer #copy{
+
+#copy{
   background-color: black;
   font-size: 2em;
   color: white;
+  text-align: center;
 }
